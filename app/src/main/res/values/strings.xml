@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">БомбаДня</string>
+    
+    <!-- Main screens -->
+    <string name="feed">Лента</string>
+    <string name="local">Рядом</string>
+    <string name="global">Глобал</string>
+    <string name="camera">Камера</string>
+    <string name="profile">Профиль</string>
+    
+    <!-- Bomb timer -->
+    <string name="bomb_launched">💣 БОМБА ЗАПУЩЕНА!</string>
+    <string name="seconds_left">%d сек осталось!</string>
+    <string name="time_up">⏰ Время вышло!</string>
+    <string name="waiting_next_bomb">Следующая бомба через:</string>
+    
+    <!-- Camera -->
+    <string name="take_photo">Снять фото</string>
+    <string name="take_video">Записать видео (5 сек)</string>
+    <string name="from_gallery">Из галереи</string>
+    <string name="send_bomb">ОТПРАВИТЬ БОМБУ 💣</string>
+    <string name="enable_blur">Размыть лица</string>
+    <string name="add_sticker">Добавить стикер</string>
+    <string name="retake">Переснять</string>
+    
+    <!-- Feed -->
+    <string name="top_bombs">🔥 ТОП БОМБЫ ДНЯ</string>
+    <string name="all_bombs">Все бомбы</string>
+    <string name="your_position">Твоя позиция: #%d</string>
+    <string name="not_participated">Ты не участвовал сегодня</string>
+    <string name="voting_ends_in">Голосование закончится через: %s</string>
+    <string name="vote_with_emoji">Голосуй эмодзи:</string>
+    
+    <!-- Profile -->
+    <string name="your_streak">🔥 Стрик: %d дней</string>
+    <string name="your_coins">💰 Бабки: %d</string>
+    <string name="total_bombs">Всего бомб: %d</string>
+    <string name="top_positions">В топ-10: %d раз</string>
+    <string name="achievements">Достижения</string>
+    <string name="settings">Настройки</string>
+    <string name="my_archive">Мой архив</string>
+    
+    <!-- Settings -->
+    <string name="notifications">Уведомления</string>
+    <string name="enable_notifications">Включить пуши</string>
+    <string name="location">Локация</string>
+    <string name="location_radius">Радиус показа</string>
+    <string name="radius_10km">10 км</string>
+    <string name="radius_city">Город</string>
+    <string name="radius_country">Страна</string>
+    <string name="radius_global">Весь мир</string>
+    <string name="privacy">Приватность</string>
+    <string name="anonymous_mode">Анонимный режим</string>
+    <string name="auto_blur">Автоматически размывать лица</string>
+    <string name="about">О приложении</string>
+    <string name="version">Версия %s</string>
+    <string name="upgrade_to_pro">💎 Апгрейд до PRO</string>
+    
+    <!-- Pro features -->
+    <string name="pro_features_title">PRO возможности</string>
+    <string name="pro_feature_1">✓ Без рекламы</string>
+    <string name="pro_feature_2">✓ Приоритет в голосовании</string>
+    <string name="pro_feature_3">✓ Кастомные темы</string>
+    <string name="pro_feature_4">✓ Двойной таймер</string>
+    <string name="pro_feature_5">✓ Эксклюзивные стикеры</string>
+    <string name="get_pro">Получить PRO за 299₽/мес</string>
+    
+    <!-- Achievements -->
+    <string name="achievement_first_bomb">Первая бомба</string>
+    <string name="achievement_streak_7">Огненная неделя</string>
+    <string name="achievement_top_1">Король дня</string>
+    <string name="achievement_100_bombs">Бомбер</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_title">Нужен доступ к камере</string>
+    <string name="permission_camera_desc">Чтобы снимать крутые бомбы!</string>
+    <string name="permission_location_title">Нужна геолокация</string>
+    <string name="permission_location_desc">Чтобы показывать бомбы рядом с тобой</string>
+    <string name="permission_notification_title">Включи уведомления</string>
+    <string name="permission_notification_desc">Чтобы не пропустить запуск бомбы!</string>
+    <string name="grant_permission">Разрешить</string>
+    <string name="skip">Пропустить</string>
+    
+    <!-- Errors -->
+    <string name="error_upload">Ошибка загрузки. Попробуй ещё раз</string>
+    <string name="error_network">Нет интернета 😢</string>
+    <string name="error_camera">Не удалось открыть камеру</string>
+    <string name="error_location">Не удалось получить локацию</string>
+    
+    <!-- Actions -->
+    <string name="share">Поделиться</string>
+    <string name="report">Пожаловаться</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="loading">Загрузка...</string>
+    
+    <!-- Onboarding -->
+    <string name="welcome_title">Добро пожаловать в БомбаДня! 💣</string>
+    <string name="welcome_desc_1">Каждый день в случайное время — 60 секунд на трэш-фото!</string>
+    <string name="welcome_desc_2">Голосуй эмодзи, попадай в топ-10 и получай призы!</string>
+    <string name="welcome_desc_3">Всё анонимно, весело и без токсика 🔥</string>
+    <string name="get_started">Поехали!</string>
+    
+    <!-- Share -->
+    <string name="share_bomb_text">Смотри мою бомбу дня в БомбаДня! 💣🔥</string>
+    <string name="share_top_text">Я в топ-10 бомб дня! 🏆 Скачай БомбаДня и попробуй сам!</string>
+</resources>

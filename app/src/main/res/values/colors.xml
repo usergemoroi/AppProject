@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E85A2A</color>
+    <color name="accent">#FFD23F</color>
+    <color name="background">#000000</color>
+    <color name="surface">#1A1A1A</color>
+    <color name="surface_variant">#2A2A2A</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_disabled">#666666</color>
+    
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    
+    <!-- Emoji reactions -->
+    <color name="emoji_fire">#FF4500</color>
+    <color name="emoji_skull">#9C27B0</color>
+    <color name="emoji_clown">#FFD700</color>
+    
+    <!-- Transparent overlays -->
+    <color name="overlay_dark">#CC000000</color>
+    <color name="overlay_light">#33FFFFFF</color>
+</resources>
