@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "YOUR_PROJECT_NUMBER",
-    "project_id": "your-project-id",
-    "storage_bucket": "your-project-id.appspot.com"
+    "project_number": "934104485501",
+    "project_id": "bombaday-a1f76",
+    "storage_bucket": "bombaday-a1f76.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "YOUR_APP_ID",
+        "mobilesdk_app_id": "1:934104485501:android:c3eebc1195fd6fd6582b14",
         "android_client_info": {
           "package_name": "com.bombaday.app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "YOUR_API_KEY"
+          "current_key": "AIzaSyCpXyh28A5gQGFTYU8wOnzEnPCXTpcjkLI"
         }
       ],
       "services": {
