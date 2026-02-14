@@ -89,12 +89,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             val session = bombRepository.getCurrentSession()
             _currentSession.value = session
-            
+
             if (session != null) {
                 loadTopBombs(session.id)
                 loadAllBombs(session.id)
                 loadUserBomb(session.id)
-                loadUserVotes(session.id)
             }
         }
     }
@@ -110,16 +109,17 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             val bombs = bombRepository.getTodaysBombs(sessionId)
             _allBombs.value = bombs
+            loadUserVotes(sessionId)
         }
     }
-    
+
     private fun loadUserBomb(sessionId: String) {
         viewModelScope.launch {
             val bomb = bombRepository.getUserBombForSession(deviceId, sessionId)
             _userBomb.value = bomb
         }
     }
-    
+
     private fun loadUserVotes(sessionId: String) {
         viewModelScope.launch {
             val votes = mutableMapOf<String, String>()

@@ -53,7 +53,9 @@ render.experimental.xml
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-google-services.json
+# google-services.json
+# Note: A demo config is included for testing purposes.
+# For production, use your own Firebase config and keep this file excluded.
 
 # Freeline
 freeline.zip

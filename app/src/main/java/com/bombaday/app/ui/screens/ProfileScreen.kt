@@ -120,7 +120,7 @@ fun ProfileScreen(
                                 containerColor = androidx.compose.ui.graphics.Color.Black
                             )
                         ) {
-                            Text("Получить PRO за 299₽/мес")
+                            Text("Получить PRO за 299₽/мес", color = TextPrimary)
                         }
                     }
                 }
