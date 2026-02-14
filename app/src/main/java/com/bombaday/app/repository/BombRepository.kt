@@ -195,9 +195,10 @@ class BombRepository {
             .limit(Constants.TOP_BOMBS_LIMIT.toLong())
             .addSnapshotListener { snapshot, error ->
                 if (error != null || snapshot == null) return@addSnapshotListener
-                
+
                 val bombs = snapshot.documents.mapNotNull { it.toObject(Bomb::class.java) }
                     .mapIndexed { index, bomb -> bomb.copy(position = index + 1) }
+                trySend(bombs)
             }
     }
 }
